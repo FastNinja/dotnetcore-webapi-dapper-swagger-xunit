@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using rocket.Services;
 
 namespace rocket.Controllers
 {
@@ -18,9 +19,10 @@ namespace rocket.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IEnumerable<Landing> Get(int id)
         {
-            return "value";
+            var repo = new Repository();
+            return repo.GetLandings();
         }
 
         // POST api/values

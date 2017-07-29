@@ -21,5 +21,13 @@ namespace rocket_tests
             var commandCenter = new CommandCenter(new List<string>() { "Moon", "Jupiter" });
             commandCenter.Launch("Moon");
         }
+
+
+        [Fact]
+        public void ReadsPostgress_Repository()
+        {
+            var repo = new Repository();
+            var actualLandings = repo.GetLandings();
+        }
     }
 }
