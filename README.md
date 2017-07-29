@@ -1,4 +1,4 @@
-# Dot Net Core for the ein
+# Dot Net Core for the win
 
 Example project that Uses latest DotNet Core , Web API, Dapper and Swagger and Build API Docker container
 
