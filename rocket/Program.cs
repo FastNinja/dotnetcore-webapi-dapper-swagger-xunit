@@ -19,6 +19,7 @@ namespace rocket
                 .UseStartup<Startup>()
                 .Build();
 
+            Console.WriteLine("Hello people! I am inside");
             host.Run();
         }
     }
