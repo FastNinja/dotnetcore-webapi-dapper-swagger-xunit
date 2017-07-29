@@ -13,15 +13,15 @@ Example project that Uses latest DotNet Core , Web API, Dapper and Swagger and B
 # How the hell shall I build it locally?
 
 navigate to `./rocket` folder.
-run **`dotnet restore`**
-run **`dotnet build`**
-run **`dotnet run`**
+- run **`dotnet restore`**
+- run **`dotnet build`**
+- run **`dotnet run`**
 
 to execut unit tests:
 navigate to `./rocket-tests` folder.
-run **`dotnet restore`**
-run **`dotnet build`**
-run **`dotnet test`**
+- run **`dotnet restore`**
+- run **`dotnet build`**
+- run **`dotnet test`**
 
 # And how can I run it inside the Docker?
 
